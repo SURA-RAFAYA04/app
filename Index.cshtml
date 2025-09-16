@@ -1,0 +1,63 @@
+﻿@* @{ 
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+<body id="bd">
+
+<h1>Registration</h1>
+<br/>
+<label>Email</label>
+<input type="email" placeholder="Enter Your Email"/>
+<br />
+<br />
+    <label>First Name</label>
+    <input type="text" placeholder="Enter Your First Name" />
+<br/>
+<br />
+    <label>Last Name</label>
+<input type="text" placeholder="Enter Your Last Name" />
+<br />
+<br />
+    <label onmouseover="fun2()">Password</label>
+    <input type="password" placeholder=" Password"  />
+<br />
+<br />
+<label>City</label>
+<br />
+<select>
+    <option>Amman</option>
+    <option>Irbid</option>
+    <option>Jarash</option>
+    <option>Al-zarqa</option>
+    <option>AL-salt</option>
+    <option>Madaba</option>
+    <option>Aqaba</option>
+</select>
+<br />
+<br />
+<label>Gender</label>
+<br />
+Male
+<input type="radio" name="gender" value="Male" />
+<br />
+Female
+    <input type="radio" name="gender" value="Female" />
+<br />
+<br />
+<label>Study Level</label>
+<br />
+BA
+<input type="checkbox" value="BA" />
+Master
+<input type="checkbox"  value=" Master" />
+PhD
+<input type="checkbox"  value=" PhD" />
+<br />
+<br />
+<button onclick="fun1()" >Save</button>
+
+</body>
